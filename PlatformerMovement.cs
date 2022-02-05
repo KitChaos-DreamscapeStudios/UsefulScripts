@@ -10,8 +10,13 @@ public class PlatformerMovement: MonoBehaviour
     public float jumpPower = 5;
     public bool isOnGround;
     public LayerMask ground;
-    public float moveSpeed;
+    public float moveSpeed = 5;
     // Start is called before the first frame update
+    //Additional Instructions
+    //Make sure the object you attatch this to has a Rigidbody2D component attatched to it, and there is a square below it with the Layer "Ground"
+    //Both player and floor should have BoxCollider2D's
+    //Make sure "ground" in the object with this script attatched is set to the layer you made "Ground"
+    //
     
     void Start()
     {
