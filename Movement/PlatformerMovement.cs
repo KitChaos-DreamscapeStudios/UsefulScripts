@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //To Add this script, create a C# file, and name it PlatformerMovement(Exaclty that) and then paste this entire script in, from start to end.
-//Alternatively, if you wish to name your file something else, only paste in the content below line 7.
+//Alternatively, if you wish to name your file something else, only paste in the content below line 7, and remove the last curlybrace.
 public class PlatformerMovement: MonoBehaviour
 {
     public Rigidbody2D body;
